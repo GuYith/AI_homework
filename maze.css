@@ -1,0 +1,57 @@
+body
+{
+    margin:0;
+    width:100%;
+
+}
+.header
+{
+    height:1020px;
+    display: block;
+
+}
+h1
+{
+    font-size: 80px;
+    text-align: center;
+}
+.welcome
+{
+    margin-top:-30px;
+    text-align: center;
+   letter-spacing: 6px;
+}
+canvas
+{
+    position: absolute;
+    margin-top: -800px;
+    margin-left: 16%;
+    margin-bottom:20px;
+    border-radius:20px;
+    box-shadow: 3px 3px 4px 4px gainsboro;
+}
+.wait
+{
+    margin-top:-110px;
+    font-size: 10px;
+    margin-left:20px;
+}
+button
+{
+    margin:30px;
+    border: none;
+    width:100px;
+    height:30px;
+}
+.left_line
+{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    width:140px;
+    left:750px;
+    display:block;
+    position:relative;
+    margin-top:-700px;
+    text-align: center;
+}

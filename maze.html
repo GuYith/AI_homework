@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to my maze!!!</title>	
+  </head> 
+  <body>
+    <div class="header">
+    <h1>
+      BFS&ASTAR&ANTCOLONY
+    </h1>
+    <p class="welcome">
+      welcome to my maze
+    </p>
+    </div>
+    
+  <canvas id="mycanvas" width="800px" height="500px">
+  </canvas>
+  <div id="map">
+  <div class="left_line">
+    <button onclick="if(astarclick>0){aStar();astarclick--;}">
+      ASTAR
+    </button>
+    <button onclick="if(bfsclick>0){BFS(start,end);bfsclick--;}">
+      BFS
+    </button>
+    <button onclick="if(antclick>0){antColony();antclick--;}">
+      ANTCOLONY
+    </button>
+    <button onclick="clearCanvas();updateMaze();">
+      UPDATE
+    </button>
+    
+    <p class="wait">
+      waiting a few seconds
+    </p>
+
+  </div>
+ 
+    </div>
+   
+  </body>
+  <link rel="stylesheet" type="text/css" href="maze.css">
+  <script src="linkList.js"></script>
+  <script src="maze.js"></script>
+</html>
